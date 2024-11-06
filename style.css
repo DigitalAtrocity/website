@@ -68,3 +68,9 @@ footer a {
 footer a:hover {
     color: #e0e0e0;
 }
+
+.app-icon {
+    width: 150px;          /* Reducing the size */
+    height: auto;          /* Maintains aspect ratio */
+    border-radius: 15px;   /* Adds rounded corners */
+}
