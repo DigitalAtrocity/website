@@ -1,57 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Digital Atrocity</title>
-      <style>
-         body {
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Atrocity</title>
+    <style>
+        /* General Style */
+        body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
             text-align: center;
-         }
-         nav {
+            background-color: #1a1a1a;
+            color: #e0e0e0;
+        }
+
+        /* Navigation */
+        nav {
             background-color: #333;
-            padding: 1em;
-         }
-         nav a {
-            color: white;
+            padding: 1em 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        nav a {
+            color: #e0e0e0;
             margin: 0 15px;
             text-decoration: none;
-         }
-         h1 {
-            color: #333;
-         }
-      </style>
-   </head>
-   <body>
-      <nav>
-         <a href="#home">Home</a>
-         <a href="#faq">FAQs</a>
-         <a href="#support">Support</a>
-      </nav>
-      
-      <!-- Home Page Content -->
-      <section id="home">
-         <h1>Welcome to our Digital Atrocity website!</h1>
-         <p>This website is a work in propgress, we apologize for any disfunctionality!</p>
-         <p>We create innovative apps to simplify your life. Our latest app is in beta on TestFlight, so feel free to explore and provide feedback!</p>
-      </section>
-      
-      <!-- FAQs Page Content -->
-      <section id="faq">
-         <h2>Frequently Asked Questions</h2>
-         <p><strong>Q: How can I join the beta?</strong><br>A: You can join the beta by downloading the app from TestFlight.</p>
-         <p><strong>Q: Will the app be free after beta?</strong><br>A: We're still deciding on final pricing but hope to offer a free tier for our beta testers</p>
-      </section>
-      
-      <!-- Support Page Content -->
-      <section id="support">
-         <h2>Contact Support</h2>
-         <p>If you encounter any issues, please contact our support email:</p>
-         <p><a href="mailto:support@yourapp.com">support@yourapp.com</a></p>
-         <p>Since the app is in beta, the support system is not yet live. Feel free to reach out if needed.</p>
-      </section>
-   </body>
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #00aaff;
+        }
+
+        /* Section Styles */
+        section {
+            padding: 2em 0;
+            margin: 0 auto;
+            max-width: 800px;
+        }
+
+        #home {
+            background-color: #1a1a1a;
+        }
+
+        #faq {
+            background-color: #222;
+        }
+
+        #support {
+            background-color: #1a1a1a;
+        }
+
+        h1, h2 {
+            color: #00aaff;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #333;
+            color: #e0e0e0;
+            padding: 1em 0;
+            margin-top: 2em;
+        }
+
+        footer a {
+            color: #00aaff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        footer a:hover {
+            color: #e0e0e0;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#rephrased">Rephrased</a>
+        <a href="#support">Support</a>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home">
+        <h1>Welcome to Digital Atrocity</h1>
+        <p>Your source for innovative apps designed to enhance your digital experience. Explore our latest releases and find support resources below.</p>
+    </section>
+
+    <!-- Rephrased Section (FAQs for your app) -->
+    <section id="rephrased">
+        <h2>Rephrased - Frequently Asked Questions</h2>
+        <p><strong>Q: How can I join the beta?</strong><br>A: You can join the beta by downloading the app from TestFlight.</p>
+        <p><strong>Q: Will the app be free after beta?</strong><br>A: We’re still finalizing pricing, but we aim to offer a free tier for beta users.</p>
+    </section>
+
+    <!-- Support Section -->
+    <section id="support">
+        <h2>Contact Support</h2>
+        <p>If you encounter any issues or have questions, please reach out:</p>
+        <p><a href="mailto:support@digitalatrocity.com">support@digitalatrocity.com</a></p>
+    </section>
+
+    <!-- Footer with Social Media Links -->
+    <footer>
+        <p>Connect with us:</p>
+        <a href="#">Twitter</a> | <a href="#">LinkedIn</a> | <a href="#">Facebook</a>
+    </footer>
+
+</body>
 </html>
+
